@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Force Layout</title>
+        <!-- Bootstrap Core CSS -->
+        <link href="/vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+
+    <body data-ng-app="mainApp">
+        <div id="wrapper" class="container-fluid">
+
+            <!-- Navigation -->
+            <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#/">Force Layout - Applications</a>
+                </div>
+            </nav>
+
+            <div id="page-wrapper">
+                <div id="testid" data-ng-view>
+                </div>
+            </div>
+            <!-- /#page-wrapper -->
+
+        </div>
+        <!-- /#wrapper -->
+
+        <!-- jQuery -->
+        <script src="/vendor/jquery/dist/jquery.min.js"></script>
+        <!-- angular module -->
+        <script src="/vendor/angular/angular.min.js"></script>
+        <script src="/vendor/angular-route/angular-route.min.js"></script>
+        <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+
+
+        <!-- application angular module -->
+        <script src="/app/app.js"></script>
+        <!-- angular services -->
+        <script src="/app/indexModule/indexService.js"></script>
+        <!-- angular controller -->
+        <script src="/app/indexModule/indexCtrl.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,14 @@
+{
+  "logsettings": {
+    "name": "ForceLayout",
+    "streams": [
+      {
+        "level": "info",
+        "type": "rotating-file",
+        "path": "ForceLayoutLog.log",
+        "period": "1d",
+        "count": 20
+      }
+    ]
+  }
+}
