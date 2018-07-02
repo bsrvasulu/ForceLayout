@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffb5404e-604c-44e5-b788-0c24ceebf27e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/loadForceLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/loadForceLayout.js" afterDir="false" />
-    </list>
+    <list default="true" id="ffb5404e-604c-44e5-b788-0c24ceebf27e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -19,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.vash" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.vash" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.vash">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="690">
+              <caret line="52" column="43" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -65,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loadForceLayout.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="loadForceLayout.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/loadForceLayout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="418" column="47" lean-forward="true" selection-start-line="418" selection-start-column="47" selection-end-line="418" selection-end-column="47" />
+            <state relative-caret-position="496">
+              <caret line="429" column="25" lean-forward="true" selection-start-line="429" selection-start-column="25" selection-end-line="429" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -120,8 +115,8 @@
       <find>force</find>
       <find>getHostApplicationWithSME2</find>
       <find>console</find>
-      <find>getApplicationSupport</find>
       <find>googlefont</find>
+      <find>getApplicationSupport</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -152,10 +147,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -244,15 +239,15 @@
       <updated>1530310568173</updated>
       <workItem from="1530310578561" duration="4072000" />
       <workItem from="1530315707643" duration="1011000" />
-      <workItem from="1530553029717" duration="5072000" />
+      <workItem from="1530553029717" duration="5614000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10155000" />
+    <option name="totallyTimeSpent" value="10697000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
@@ -464,13 +459,6 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.vash">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/servicejs.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -480,8 +468,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/loadForceLayout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="418" column="47" lean-forward="true" selection-start-line="418" selection-start-column="47" selection-end-line="418" selection-end-column="47" />
+        <state relative-caret-position="496">
+          <caret line="429" column="25" lean-forward="true" selection-start-line="429" selection-start-column="25" selection-end-line="429" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.vash">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="52" column="43" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="43" />
         </state>
       </provider>
     </entry>
