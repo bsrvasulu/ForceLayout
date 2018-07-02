@@ -2,351 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffb5404e-604c-44e5-b788-0c24ceebf27e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/app/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/app/css/googlefont.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/app/indexModule/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/app/indexModule/indexCtrl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/app/indexModule/indexService.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/applicationForceLayout.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/loadForceLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/loadForceLayout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular-route/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular-route/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular-route/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular-route/angular-route.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular-route/angular-route.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular-route/angular-route.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular-route/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular-route/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular-route/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular-smart-table/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular-smart-table/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular-smart-table/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular-smart-table/ISSUE_TEMPLATE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular-smart-table/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular-smart-table/changeLog.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular-smart-table/dist/smart-table.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular-smart-table/dist/smart-table.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular-smart-table/dist/smart-table.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular-smart-table/gulpFile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular-smart-table/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular-smart-table/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular-smart-table/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular-smart-table/src/bottom.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular-smart-table/src/smart-table.module.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular-smart-table/src/stConfig.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular-smart-table/src/stPagination.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular-smart-table/src/stPipe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular-smart-table/src/stSearch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular-smart-table/src/stSelectRow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular-smart-table/src/stSort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular-smart-table/src/stTable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular-smart-table/src/top.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular/angular-csp.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular/angular.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular/angular.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular/angular.min.js.gzip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular/angular.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/angular/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/Gemfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/Gemfile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/Gruntfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/ISSUE_TEMPLATE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/dist/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/dist/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/dist/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/dist/css/bootstrap-theme.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/dist/js/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/grunt/.jshintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/grunt/bs-commonjs-generator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/grunt/bs-glyphicons-data-generator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/grunt/bs-lessdoc-parser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/grunt/bs-raw-files-generator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/grunt/change-version.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/grunt/configBridge.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/grunt/npm-shrinkwrap.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/grunt/sauce_browsers.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/js/.jscsrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/js/.jshintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/js/affix.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/js/alert.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/js/button.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/js/carousel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/js/collapse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/js/dropdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/js/modal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/js/popover.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/js/scrollspy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/js/tab.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/js/tooltip.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/js/transition.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/.csscomb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/.csslintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/alerts.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/badges.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/bootstrap.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/breadcrumbs.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/button-groups.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/buttons.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/carousel.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/close.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/code.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/component-animations.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/dropdowns.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/forms.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/glyphicons.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/grid.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/input-groups.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/jumbotron.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/labels.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/list-group.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/media.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/mixins.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/mixins/alerts.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/mixins/background-variant.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/mixins/border-radius.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/mixins/buttons.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/mixins/center-block.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/mixins/clearfix.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/mixins/forms.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/mixins/gradients.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/mixins/grid-framework.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/mixins/grid.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/mixins/hide-text.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/mixins/image.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/mixins/labels.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/mixins/list-group.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/mixins/nav-divider.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/mixins/nav-vertical-align.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/mixins/opacity.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/mixins/pagination.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/mixins/panels.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/mixins/progress-bar.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/mixins/reset-filter.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/mixins/reset-text.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/mixins/resize.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/mixins/responsive-visibility.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/mixins/size.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/mixins/tab-focus.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/mixins/table-row.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/mixins/text-emphasis.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/mixins/text-overflow.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/mixins/vendor-prefixes.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/modals.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/navbar.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/navs.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/normalize.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/pager.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/pagination.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/panels.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/popovers.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/print.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/progress-bars.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/responsive-embed.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/responsive-utilities.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/scaffolding.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/tables.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/theme.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/thumbnails.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/tooltip.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/type.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/utilities.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/variables.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/less/wells.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/nuget/MyGet.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/nuget/bootstrap.less.nuspec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/nuget/bootstrap.nuspec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/package.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/.jshintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/gulpfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/holder.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/holder.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/package.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/src/lib/color.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/src/lib/constants.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/src/lib/dom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/src/lib/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/src/lib/renderers/canvas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/src/lib/renderers/svg-dom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/src/lib/renderers/svg-text.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/src/lib/scenegraph.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/src/lib/svg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/src/lib/utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/src/lib/vendor/ondomready.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/src/lib/vendor/polyfills.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/src/lib/vendor/querystring.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/src/meteor/package.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/src/meteor/shim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/test/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/test/detach.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/test/holder.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/test/image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/test/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/test/phantom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/test/renderperf/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/test/renderperf/fps.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/test/renderperf/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/test/renderperf/releases/holder-master/holder.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/test/renderperf/setup.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/test/renderperf/testcase.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/holderjs/test/runner.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/AUTHORS.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/dist/core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/dist/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/dist/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/dist/jquery.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/dist/jquery.slim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/dist/jquery.slim.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/dist/jquery.slim.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/external/sizzle/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/external/sizzle/dist/sizzle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/external/sizzle/dist/sizzle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/external/sizzle/dist/sizzle.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/.eslintrc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/ajax.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/ajax/jsonp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/ajax/load.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/ajax/parseXML.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/ajax/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/ajax/var/location.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/ajax/var/nonce.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/ajax/var/rquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/ajax/xhr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/attributes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/attributes/attr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/attributes/classes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/attributes/prop.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/attributes/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/attributes/val.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/callbacks.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/core/DOMEval.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/core/access.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/core/init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/core/parseHTML.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/core/ready-no-deferred.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/core/ready.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/core/readyException.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/core/stripAndCollapse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/core/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/core/var/rsingleTag.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/css.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/css/addGetHookIf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/css/adjustCSS.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/css/curCSS.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/css/hiddenVisibleSelectors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/css/showHide.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/css/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/css/var/cssExpand.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/css/var/getStyles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/css/var/isHiddenWithinTree.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/css/var/rmargin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/css/var/rnumnonpx.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/css/var/swap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/data/Data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/data/var/acceptData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/data/var/dataPriv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/data/var/dataUser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/deferred.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/deferred/exceptionHook.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/deprecated.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/dimensions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/effects.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/effects/Tween.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/effects/animatedSelector.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/event.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/event/ajax.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/event/alias.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/event/focusin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/event/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/event/trigger.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/exports/amd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/exports/global.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/manipulation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/manipulation/_evalUrl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/manipulation/buildFragment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/manipulation/getAll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/manipulation/setGlobalEval.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/manipulation/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/manipulation/var/rcheckableType.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/manipulation/var/rscriptType.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/manipulation/var/rtagName.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/manipulation/wrapMap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/offset.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/queue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/queue/delay.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/selector-native.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/selector-sizzle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/selector.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/serialize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/traversing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/traversing/findFilter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/traversing/var/dir.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/traversing/var/rneedsContext.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/traversing/var/siblings.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/var/ObjectFunctionString.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/var/arr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/var/class2type.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/var/concat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/var/document.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/var/documentElement.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/var/fnToString.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/var/getProto.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/var/hasOwn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/var/indexOf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/var/pnum.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/var/push.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/var/rcssNum.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/var/rnothtmlwhite.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/var/slice.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/var/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/var/toString.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/jquery/src/wrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.vash" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.vash" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -360,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.vash" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.vash" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index.vash">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -385,6 +44,15 @@
       </file>
       <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bower.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -397,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loadForceLayout.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="loadForceLayout.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/js/loadForceLayout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+            <state relative-caret-position="190">
+              <caret line="418" column="47" lean-forward="true" selection-start-line="418" selection-start-column="47" selection-end-line="418" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -467,9 +135,10 @@
         <option value="$PROJECT_DIR$/public/app/css/googlefont.css" />
         <option value="$PROJECT_DIR$/public/js/servicejs.js" />
         <option value="$PROJECT_DIR$/public/js/loadFoceLayout.js" />
-        <option value="$PROJECT_DIR$/public/js/loadForceLayout.js" />
         <option value="$PROJECT_DIR$/public/css/googlefont.css" />
         <option value="$PROJECT_DIR$/views/index.vash" />
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/public/js/loadForceLayout.js" />
       </list>
     </option>
   </component>
@@ -575,12 +244,12 @@
       <updated>1530310568173</updated>
       <workItem from="1530310578561" duration="4072000" />
       <workItem from="1530315707643" duration="1011000" />
-      <workItem from="1530553029717" duration="4376000" />
+      <workItem from="1530553029717" duration="5072000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9459000" />
+    <option name="totallyTimeSpent" value="10155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
@@ -768,25 +437,8 @@
     <entry file="file://$PROJECT_DIR$/public/js/applicationForceLayout.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.json">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/servicejs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/loadForceLayout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -802,10 +454,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.vash">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/servicejs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/loadForceLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="418" column="47" lean-forward="true" selection-start-line="418" selection-start-column="47" selection-end-line="418" selection-end-column="47" />
         </state>
       </provider>
     </entry>

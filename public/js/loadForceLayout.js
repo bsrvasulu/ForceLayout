@@ -450,6 +450,4 @@ function getSMELinks() {
     drawForceLayoutWithSME();
 }
 
-// $timeout(function () {
-//     $scope.drawForceLayout();
-// }, 200);
+setTimeout(function(){ loadForceLayout(); }, 200);
