@@ -1,5 +1,5 @@
 # ForceLayout
-d3.js based Force layout, which demonistrate the biuilding nodes, links as well as many events and styles.
+d3.js based Force layout, which demonistrate biuilding nodes, links and as well as many events and styles.
 
 ## javascript files
 * Add d3js to the project
