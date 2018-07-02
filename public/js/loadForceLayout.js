@@ -14,37 +14,33 @@ var w = 960,
     y_browser = 25;
 var vis;
 var node;
-
+var bLoaded = false;
 
 function updateNodeData(d){
     selectedNode.name = d.properties.name;
     selectedNode.type = d.properties.type;
     selectedNode.description = d.properties.description;
     selectedNode.SMEs = [];
-    getApplicationSupport(d.properties.name)
-        .then(function (result) {
-            //Success
-            console.log(JSON.stringify(result));
-            var neo4jJson = result.data;
-            neo4jJson.results[0].data.forEach(function (row) {
-                row.graph.nodes.forEach(function (n) {
-                    n.labels.forEach(function (l){
-                        if('SME' === l){
-                            var SMEInfo=  {};
-                            SMEInfo.SME = n.properties.name;
-                            SMEInfo.SMEContact = n.properties.contact;
-                            selectedNode.SMEs.push(SMEInfo);
-                        }
-                    });
-                });
+    var result = getApplicationSupport(d.properties.name);
+    //Success
+    //console.log(JSON.stringify(result));
+    var neo4jJson = result.data;
+    neo4jJson.results[0].data.forEach(function (row) {
+        row.graph.nodes.forEach(function (n) {
+            n.labels.forEach(function (l){
+                if('SME' === l){
+                    var SMEInfo=  {};
+                    SMEInfo.SME = n.properties.name;
+                    SMEInfo.SMEContact = n.properties.contact;
+                    selectedNode.SMEs.push(SMEInfo);
+                }
             });
-        }, function (err) {
-            console.log(JSON.stringify(err));
         });
+    });
 }
 
 function update() {
-    console.log('links: ' + JSON.stringify(links));
+    //console.log('links: ' + JSON.stringify(links));
     //Restart the force layout.
     force.nodes(nodes)
         .links(links)
@@ -265,8 +261,8 @@ function flatten(root) {
 function isLinkExist(allLinks, currLink){
     var bReturn = false;
     allLinks.forEach(function(row){
-        console.log('row.source.id:' + row.source.id + ' - row.target.id:' + row.target.id  );
-        console.log('currLink.source.id:' + currLink.source.id + ' - currLink.target.id:' + currLink.target.id  );
+        //console.log('row.source.id:' + row.source.id + ' - row.target.id:' + row.target.id  );
+        //console.log('currLink.source.id:' + currLink.source.id + ' - currLink.target.id:' + currLink.target.id  );
         if((row.source.id == currLink.source.id) && (row.target.id == currLink.target.id))
             bReturn = true;
     });
@@ -301,7 +297,7 @@ function buildNodesAndLinks(neo4jJson){
                 if((null !== link.target) && (relationShip === true)) {
                     link.target.properties.type = r.type;
                     var bLinkExist = isLinkExist(links, link);
-                    console.log('link.source.id:' + link.source.id + ' - link.target.id:' + link.target.id  + ' -bLinkExist:' + bLinkExist );
+                    //console.log('link.source.id:' + link.source.id + ' - link.target.id:' + link.target.id  + ' -bLinkExist:' + bLinkExist );
                     //alert('test');
                     if(bLinkExist !== true)
                         links.push(link);
@@ -319,7 +315,7 @@ function buildNodesAndLinks(neo4jJson){
     return {nodes: nodes, links: links};
 }
 
-function drawForceLayout(){
+function initializeForceLayout(){
     //,
     //root;
     force = d3.layout.force();
@@ -333,6 +329,14 @@ function drawForceLayout(){
         .classed('svg-content-responsive', true);
     //.attr('width', w).attr('height', h);
 
+    // Build the path
+    var defs = vis.insert('svg:defs')
+        .data(['end']);
+}
+
+function drawForceLayout(){
+    if(!force) initializeForceLayout();
+
     layoutRoot = json;
     layoutRoot.fixed = true;
     layoutRoot.x = w / 2;
@@ -342,11 +346,24 @@ function drawForceLayout(){
 
     nodes = treeStructureObj.nodes;
     links = treeStructureObj.links;
-
-    // Build the path
-    var defs = vis.insert('svg:defs')
-        .data(['end']);
     update();
+
+
+    // var resultData = getHostApplicationsWithSME(siteName);
+    // //Success
+    // //.log(JSON.stringify(resultData));
+    // //json = resultData.data;
+    // layoutRoot = resultData.data;
+    // layoutRoot.fixed = true;
+    // layoutRoot.x = w / 2;
+    // layoutRoot.y = h / 4;
+    //
+    // treeStructureObj = buildNodesAndLinks(layoutRoot);
+    //
+    // nodes = treeStructureObj.nodes;
+    // links = treeStructureObj.links;
+    // update();
+
 }
 
     /**
@@ -394,24 +411,21 @@ function click(d) {
     //drawForceLayout();
 }
 
-    /**
-     * Returns a list of all nodes under the root.
-     */
+/**
+ * Returns a list of all nodes under the root.
+ */
 
 function dragstart(d) {
     d3.select(this).classed('fixed', d.fixed = true);
 }
 
-function getHostApplicationWithSME2(siteName) {
-    loadingHostApplication = true;
-    //$scope.hostInventoryCollection.splice(0, $scope.hostInventoryCollection.length);
+function drawForceLayoutWithSME(siteName) {
+    if(!force) initializeForceLayout();
     var resultData = getHostApplicationsWithSME(siteName);
     //Success
-    console.log(JSON.stringify(resultData));
-    json = resultData.data;
-    loadingHostInventory = false;
-
-    layoutRoot = json;
+    //.log(JSON.stringify(resultData));
+    //json = resultData.data;
+    layoutRoot = resultData.data;
     layoutRoot.fixed = true;
     layoutRoot.x = w / 2;
     layoutRoot.y = h / 4;
@@ -425,15 +439,17 @@ function getHostApplicationWithSME2(siteName) {
 }
 
 function loadForceLayout(){
+    if(bLoaded) clearNodes();
+    bLoaded = true;
     drawForceLayout();
 }
 
 function getSMELinks() {
-    clearNodes();
-    getHostApplicationWithSME2();
+    if(bLoaded) clearNodes();
+    bLoaded = true;
+    drawForceLayoutWithSME();
 }
 
-    // $timeout(function () {
-    //     $scope.drawForceLayout();
-    // }, 200);
-//}
+// $timeout(function () {
+//     $scope.drawForceLayout();
+// }, 200);

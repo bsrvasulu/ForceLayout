@@ -4,13 +4,13 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="author" content="">
+        <meta name="description" content="d3.js based force layout">
+        <meta name="author" content="Sreeni">
 
         <title>Force Layout</title>
         <!-- Bootstrap Core CSS -->
-        <link href="/vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link href="/app/css/googlefont.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="/css/nodeLinkStyle.css" rel="stylesheet">
     </head>
 
     <body>
@@ -19,7 +19,7 @@
             <!-- Navigation -->
             <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#/">Force Layout - Applications</a>
+                    <a class="navbar-brand" href="#/">Force Layout - Site Viewer</a>
                 </div>
             </nav>
 
@@ -47,7 +47,7 @@
         <!-- /#wrapper -->
 
         <!-- jQuery -->
-        <script src="/vendor/jquery/dist/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
         <script src="/js/servicejs.js"></script>
         <script src="/js/loadForceLayout.js"></script>
